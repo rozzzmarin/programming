@@ -59,7 +59,7 @@ int main() {
                 x1 = sqrt(0 / a);  cout << "x =" << x1;
             }
             if (c != 0) {
-                x1 = sqrt(c); x2 = -(sqrt(c));
+                x1 = sqrt(c / a); x2 = -(sqrt(c / a));
                 cout << "x1 = " << x1 << ", x2 = " << x2;
             }
         }

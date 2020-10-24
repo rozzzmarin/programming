@@ -5,9 +5,10 @@ int main() {
     using namespace std;
     setlocale(LC_ALL, "Russian");
     double S, p, a, b, c, xa, ya, xb, yb, xc, yc, method = 0;
-    cout << "Выберите способ ввода параметров треугольника:" << endl << "1. Длины сторон" << endl << "2. Координаты вершин \n"; 
-    while ((method != 1) && (method != 2)) {
+    cout << "Выберите способ ввода параметров треугольника:" << endl << "1. Длины сторон" << endl << "2. Координаты вершин \n";  
+    while (method != 1 && method != 2) {
             cin.clear();
+            cin >> method;
             string str;
             getline(cin, str);
             cout << "Входные данные неверны. Попробуйте ещё раз.\n";
