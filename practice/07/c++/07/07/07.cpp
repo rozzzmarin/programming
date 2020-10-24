@@ -1,14 +1,17 @@
 ﻿#include <iostream>
+#include <string>
 
 int main() {
     using namespace std;
     setlocale(LC_ALL, "Russian");
-    double S, p, a, b, c, xa, ya, xb, yb, xc, yc, method;
-    while (cout << "Выберите способ ввода параметров треугольника:" << endl << "1. Длины сторон" << endl << "2. Координаты вершин" << endl && !(cin >> method) && !(method == 1) && !(method == 1)) {
-        cin.clear();
-        cout << "Входные данные неверны. Попробуйте ещё раз.";
-        getline
-    }
+    double S, p, a, b, c, xa, ya, xb, yb, xc, yc, method = 0;
+    cout << "Выберите способ ввода параметров треугольника:" << endl << "1. Длины сторон" << endl << "2. Координаты вершин \n"; 
+    while ((method != 1) && (method != 2)) {
+            cin.clear();
+            string str;
+            getline(cin, str);
+            cout << "Входные данные неверны. Попробуйте ещё раз.\n";
+        }
     if (method == 1) {
         cout << "Введите длину стороны а: "; cin >> a; cout << "Введите длину стороны b: "; cin >> b; cout << "Введите длину стороны c: "; cin >> c;
         p = (a + b + c) / 2;
