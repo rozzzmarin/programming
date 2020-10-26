@@ -34,6 +34,5 @@ while True:
         else:
             print("Существование такого треугольника невозможно.")
             break
-    elif method != 1 and method != 2:
+    elif (method != 1 and method != 2):
         print("Пожалуйста, введите корректные данные:")
-        continue
