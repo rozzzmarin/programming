@@ -13,3 +13,9 @@
 | Практическая 5 - [[C++]](./practice/05/c++/) [[Python]](./practice/05/python/) | [Лабораторная 5]() |
 | Практическая 6 - [[C++]](./practice/06/c++/) [[Python]](./practice/06/python/) | [Лабораторная 6]() |
 | Практическая 7 - [[C++]](./practice/07/c++/) [[Python]](./practice/07/python/) | [Лабораторная 7]() |
+| Практическая 8 - [[C++]](./practice/08/c++/) [[Python]](./practice/08/python/) | [Лабораторная 8]() |
+| Практическая 9 - [[C++]](./practice/09/c++/) [[Python]](./practice/09/python/) | [Лабораторная 9]() |
+| Практическая 10 - [[C++]](./practice/10/c++/) [[Python]](./practice/10/python/) | [Лабораторная 10]() |
+| Практическая 11 - [[C++]](./practice/11/c++/) [[Python]](./practice/11/python/) | [Лабораторная 11]() |
+| Практическая 12 - [[C++]](./practice/12/c++/) [[Python]](./practice/12/python/) | [Лабораторная 12]() |
+| Практическая 13 - [[C++]](./practice/13/c++/) [[Python]](./practice/13/python/) | [Лабораторная 13]() |
