@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     setlocale(LC_ALL, "Russian");
     double number, numpow, numberes = 1;
-    while (cout << "Введите число, степень которого хотите найти:\n" && !(cin >> number)) {
+    while (cout << "Введите число, которое хотите возвести в степень:\n" && !(cin >> number)) {
         cin.clear();
         string str;
         getline(cin, str);
@@ -17,8 +17,8 @@ int main() {
         getline(cin, str);
         cout << "Пожалуйста, введите корректные данные.\n";
     }
-    if (number == 0) {
-        cout << "Результат возведения в степень равен:\n1.";
+    if (numpow == 0) {
+        cout << "Результат возведения в степень равен:\n1";
     }
     else if (numpow > 0) {
         while (numpow != 0) {
