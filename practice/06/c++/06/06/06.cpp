@@ -6,24 +6,9 @@ int main() {
     using namespace std;
     double a = 0, b = 0, c = 0, d, x1, x2;
     
-    while (cout << "а = " && !(cin >> a)) {
-        cin.clear();
-        string str;
-        getline (cin, str);
-        cout << "Пожалуйста, введите корректные данные: \n";
-    }
-    while (cout << "b = " && !(cin >> b)) {
-        cin.clear();
-        string str;
-        getline(cin, str);
-        cout << "Пожалуйста, введите корректные данные: \n";
-    }
-    while (cout << "c = " && !(cin >> c)) {
-        cin.clear();
-        string str;
-        getline(cin, str);
-        cout << "Пожалуйста, введите корректные данные: \n";
-    }
+    cout << "а = "; cin >> a;
+    cout << "b = "; cin >> b;
+    cout << "c = "; cin >> c;
     if (a == 0) {
         if (b != 0 && c != 0) {
             x1 = -(c / b); cout << "x = " << x1;
