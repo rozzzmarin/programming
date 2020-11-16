@@ -1,12 +1,16 @@
 ﻿#include <iostream>
+#include "fact.h"
+using namespace std;
 
-#pragma once
+int main(){
+    setlocale(LC_ALL, "Russian");
+    std::cout << "n" << "   " << "n!" << std::endl;
+    int n = 10;
+    factorial::print();
+    std::cout << std::endl;
+    std::cout << "x" << "   " << "sin(x)" << std::endl;
+    /*teilor::print();*/
+}
 int main() {
 
 }
-#ifndef RR_H
-#define RR_H
-#endif
-#ifndef WW_H
-#define WW_H
-#endif

@@ -141,6 +141,10 @@
   <ItemGroup>
     <ClCompile Include="23.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fact.h" />
+    <ClInclude Include="razlfunct.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
