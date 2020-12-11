@@ -1,16 +1,13 @@
 ﻿#include <iostream>
 #include "fact.h"
+#include "razlfunct.h"
+#include "comb.h"
 using namespace std;
 
 int main(){
     setlocale(LC_ALL, "Russian");
-    std::cout << "n" << "   " << "n!" << std::endl;
+    cout << "n" << '\t' << "n!\n";
     int n = 10;
-    factorial::print();
-    std::cout << std::endl;
-    std::cout << "x" << "   " << "sin(x)" << std::endl;
-    /*teilor::print();*/
-}
-int main() {
-
+    return fact();
+    cout << "x" << '\t' << "sin(x)\n";
 }

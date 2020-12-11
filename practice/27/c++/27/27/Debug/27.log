@@ -1,0 +1,4 @@
+﻿  27.cpp
+D:\uchebaidoki\programming\practice\27\c++\27\27\27.cpp(25,33): warning C4018: <: несоответствие типов со знаком и без знака
+D:\uchebaidoki\programming\practice\27\c++\27\27\27.cpp(46,20): warning C4018: <: несоответствие типов со знаком и без знака
+  27.vcxproj -> D:\uchebaidoki\programming\practice\27\c++\27\Debug\27.exe

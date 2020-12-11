@@ -1,0 +1,9 @@
+﻿  25.cpp
+D:\uchebaidoki\programming\practice\25\c++\25\25\25.cpp(67,10): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\uchebaidoki\programming\practice\25\c++\25\25\25.cpp(67,24): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\uchebaidoki\programming\practice\25\c++\25\25\25.cpp(67,38): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\uchebaidoki\programming\practice\25\c++\25\25\25.cpp(67,52): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\uchebaidoki\programming\practice\25\c++\25\25\25.cpp(170,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\uchebaidoki\programming\practice\25\c++\25\25\25.cpp(175,72): warning C4244: аргумент: преобразование "double" в "const unsigned int", возможна потеря данных
+D:\uchebaidoki\programming\practice\25\c++\25\25\25.cpp(175,46): warning C4244: аргумент: преобразование "double" в "const unsigned int", возможна потеря данных
+  25.vcxproj -> D:\uchebaidoki\programming\practice\25\c++\25\Debug\25.exe

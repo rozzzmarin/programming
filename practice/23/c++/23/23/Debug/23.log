@@ -1,2 +1,5 @@
 ﻿  23.cpp
-  23.vcxproj -> D:\uchebaidoki\programming\practice\23\c++\23\Debug\23.exe
+D:\uchebaidoki\programming\practice\23\c++\23\23\razlfunct.h(10,35): warning C4552: "/": результат выражения не используется
+D:\uchebaidoki\programming\practice\23\c++\23\23\razlfunct.h(11,56): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+D:\uchebaidoki\programming\practice\23\c++\23\23\razlfunct.h(11): error C4700: использована неинициализированная локальная переменная "sin"
+D:\uchebaidoki\programming\practice\23\c++\23\23\fact.h(10): error C4716: fact: должна возвращать значение

@@ -1,13 +1,10 @@
-#include <iostream>
 #pragma once
-
-int64_t factorial(int64_t n) {
-    if (n < 0)
-        return -1;
-
-    int64_t factres = 1;
-    for (int64_t i = 1; i <= n; ++i) {
-        factres = factres * i;
+#include <iostream>
+using namespace std;
+int fact() {
+    long long int f = 1, n;
+    for (n = 1; n <= 10; n++) {
+        f *= n;
     }
-    return factres;
+    cout << n << '\t' << f << endl;
 }

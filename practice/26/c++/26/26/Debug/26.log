@@ -1,0 +1,10 @@
+﻿  26.cpp
+D:\uchebaidoki\programming\practice\26\c++\26\26\26.cpp(68,9): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\uchebaidoki\programming\practice\26\c++\26\26\26.cpp(171,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\uchebaidoki\programming\practice\26\c++\26\26\26.cpp(176,77): warning C4244: аргумент: преобразование "double" в "const unsigned int", возможна потеря данных
+D:\uchebaidoki\programming\practice\26\c++\26\26\26.cpp(176,48): warning C4244: аргумент: преобразование "double" в "const unsigned int", возможна потеря данных
+D:\uchebaidoki\programming\practice\26\c++\26\26\26.cpp(194,77): warning C4244: аргумент: преобразование "double" в "const unsigned int", возможна потеря данных
+D:\uchebaidoki\programming\practice\26\c++\26\26\26.cpp(194,48): warning C4244: аргумент: преобразование "double" в "const unsigned int", возможна потеря данных
+D:\uchebaidoki\programming\practice\26\c++\26\26\26.cpp(203,22): warning C4018: <: несоответствие типов со знаком и без знака
+D:\uchebaidoki\programming\practice\26\c++\26\26\26.cpp(210,22): warning C4018: <: несоответствие типов со знаком и без знака
+  26.vcxproj -> D:\uchebaidoki\programming\practice\26\c++\26\Debug\26.exe
