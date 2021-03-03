@@ -1,2 +1,6 @@
 ﻿  10.cpp
+D:\uchebaidoki\programming\practice\10\c++\10\10\10.cpp(13,9): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+D:\uchebaidoki\programming\practice\10\c++\10\10\10.cpp(16,8): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+D:\uchebaidoki\programming\practice\10\c++\10\10\10.cpp(22,17): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+D:\uchebaidoki\programming\practice\10\c++\10\10\10.cpp(30,11): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
   10.vcxproj -> D:\uchebaidoki\programming\practice\10\c++\10\Debug\10.exe

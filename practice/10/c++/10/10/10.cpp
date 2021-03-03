@@ -1,33 +1,38 @@
 ﻿#include <iostream>
 
 using namespace std;
+
 int main() {
-	setlocale(LC_ALL, "Russian");
-	double s, l1, r1, l2, r2, x1, x2;
+	setlocale(LC_ALL, "Russian"); 
+	long long s, l1, r1, l2, r2;
+	bool it_works = true;
+
 	cout << "Введите целое число s, границы диапазона s1, границы диапазона s2 через пробел:\n";
 	cin >> s >> l1 >> r1 >> l2 >> r2;
 
-	if ((l1 <= r1) && (l2 <= r2)) {
-		if ((s <= (r1 + r2)) && (s >= (l1 + l2))) {
-			x1 = l1;
-			x2 = s - l1;
-			if ((l2 <= x2) && (s <= x1 + r2)) {
-				cout << x1 << " " << x2;
-			}
-			else if ((l2 <= x2) && (s >= x1 + r2)) {
-				if (((l1 + abs(x2 - r2)) < r1) && ((r2 - abs(x2 - r2)) > l2)) {
-					x1 = (l1 + abs(x2 - r2));
-					x2 = s - x1;
-					cout << x1 << " " << x2;
-				}
-				else {
-					cout << "-1\n";
-				}
-			}
+	int x1 = l1; int x2;
+
+	if (x1 + r2 < s) {
+		x2 = r2;
+
+		if (s > r1 + x2) {
+			cout << "Пожалуйста, введите корректные данные.\n";
+			it_works = false;
+		}
+		else { x1 = s - r2; }
+	}
+	else {
+		if (s < l1 + l2) {
+			cout << "Пожалуйста, введите корректные данные.\n";
+			it_works = false;
 		}
 		else {
-			cout << "-1\n";
+			x2 = s - x1;
 		}
 	}
-	else { cout << "Пожалуйста, введите корректные данные.\n"; }
+
+	if (it_works) {
+		cout << "x1 = " << x1 << endl;
+		cout << "x2 = " << x2 << endl;
+	}
 }
