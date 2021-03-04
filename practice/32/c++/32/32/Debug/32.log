@@ -1,0 +1,4 @@
+﻿  32.cpp
+D:\uchebaidoki\programming\practice\32\c++\32\32\32.cpp(118,18): warning C4244: =: преобразование "float" в "uint8_t", возможна потеря данных
+D:\uchebaidoki\programming\practice\32\c++\32\32\32.cpp(155,20): warning C4018: <: несоответствие типов со знаком и без знака
+  32.vcxproj -> D:\uchebaidoki\programming\practice\32\c++\32\Debug\32.exe
