@@ -44,18 +44,18 @@
 2.Чтобы убедится, что установка прошла успешно, запускаем среду разработки Qt Creator и в разделе Примеры находим проект
 Calculator Form Example.
 
-![Рис. 1]()
+![Рис. 1](https://github.com/rozzzmarin/programming/blob/master/lab/04/imgs/1.png)
 Рис. 1.
 
 3.Изучаем краткую документацию по нему, а так же выбираем и настроиваем комплект сборки. Выбираем версию под Desktop, после чего нажимаем по кнопке Редактор.
 
-![Рис. 2]()
+![Рис. 2](https://github.com/rozzzmarin/programming/blob/master/lab/04/imgs/2.png)
 Рис. 2.
 
 4.На боковой панели в разделе Проекты в каталоге Формы открываем главную форму проекта и заменяем текст "Input 1", "Input 2", "Output" на "Ввод 1", "Ввод 2" и "Вывод" соответственно. 
 Для этого щёлкаем по нужному компоненту на форме и в окне Редактор свойств меняем значение свойства text.
 
-![Рис. 3]()
+![Рис. 3](https://github.com/rozzzmarin/programming/blob/master/lab/04/imgs/3.png)
 Риc. 3.
 
 ### Задание 2
@@ -97,66 +97,65 @@ Calculator Form Example.
 
 1. Создаём консольное приложение без Qt
 
-![Рис. 4]()
+![Рис. 4](https://github.com/rozzzmarin/programming/blob/master/lab/04/imgs/4.png)
 Рис. 4.
 
 Выбираем размещение проекта
 
-![Рис. 5]()
+![Рис. 5](https://github.com/rozzzmarin/programming/blob/master/lab/04/imgs/5.png)
 Рис. 5.
 
 Выбираем систему сборки
 
-![Рис. 6]()
+![Рис. 6](https://github.com/rozzzmarin/programming/blob/master/lab/04/imgs/6.png)
 Рис. 6.
 
 Выбираем комплект 
 
-![Рис. 7]()
+![Рис. 7](https://github.com/rozzzmarin/programming/blob/master/lab/04/imgs/7.png)
 Рис. 7.
 
 Управление проектом(добавляем под контроль версий при надобности)
 
-![Рис. 8]()
+![Рис. 8](https://github.com/rozzzmarin/programming/blob/master/lab/04/imgs/8.png)
 Рис. 8.
 
 2.
 
 Замените содержимое файла main.cpp на 
 
-![Рис. 9]()
+![Рис. 9](https://github.com/rozzzmarin/programming/blob/master/lab/04/imgs/9.png)
 Рис. 9.
 
 3. Переключаем режим сборки в режим Отладки
 
 4.Устанавливаем точки останова на 6, 7, 8 строках
 
-![Рис. 10]()
+![Рис. 10](https://github.com/rozzzmarin/programming/blob/master/lab/04/imgs/10.png)
 Рис. 10.
 
 5.Выполняем программу в режиме отладки и смотрим значения в разных точках останова
 
-В 6 строке
+В 6 строке:
 
-![Рис. 11]()
+![Рис. 11](https://github.com/rozzzmarin/programming/blob/master/lab/04/imgs/11.png)
 Рис. 11.
 
-В 7 строке
+В 7 строке:
 
-![Рис. 12]()
-
+![Рис. 12](https://github.com/rozzzmarin/programming/blob/master/lab/04/imgs/12.png)
 Рис. 12.
 
-В 8 строке
+В 8 строке:
 
-![Рис. 13]()
+![Рис. 13](https://github.com/rozzzmarin/programming/blob/master/lab/04/imgs/13.png)
 Рис. 13.
 
 ### Задание 4
 
 Для уже существующего репозитория обновляем файл .gitignore, добавляя туда новые строки
 
-![Рис. 14]()
+![Рис. 14](https://github.com/rozzzmarin/programming/blob/master/lab/04/imgs/14.png)
 Рис. 14.
 
 
